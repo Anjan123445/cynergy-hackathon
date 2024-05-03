@@ -11,7 +11,7 @@
     <style>
         body {
             /* Set background color */
-            background-color: #d4a450; /* Default color */
+            background-color: #ea7bd3; /* Default color */
 
             /* Remove or replace the background image if not needed */
             background-image: none;
@@ -24,7 +24,7 @@
         /* Additional styling for better readability */
         .services {
             padding: 20px;
-            background-color: #d4a450; /* Green color for services section */
+            background-color: #ea7bd3; /* Green color for services section */
         }
     </style>
 </head>
@@ -43,23 +43,36 @@
 </section>
 
 <body>
-    <main>
-        <section id="tours">
-            <h2>Tours</h2>
-            <div class="tour">
-                <img src="C:\Users\anjan\OneDrive\Desktop\ecotourism.jpeg.jpg">
-                <h3>Eco toursim</h3>
-                <p>Embrace yourself admist the beautiful nature</p>
-                <button>Book Now</button>
+<!-- Contact Us Section -->
+<section class="Contact-us">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Feel free to reach out to us using the contact information below:</p>
+        
+        <div class="contact-info">
+            <div class="info-item">
+                
+                <p>Phone:+91 1231231234</p>
             </div>
-            <div class="tour">
-                <img src="C:\Users\anjan\OneDrive\Desktop\adventure tours.jpeg.crdownload" >
-                <h3>Adventure tour</h3>
-                <p>Go on a mid blowing adventure with your friends</p>
-                <button>Book Now</button>
+            <div class="info-item">
+                
+                <p>Email: info@gotrip.com</p>
             </div>
-            <!-- Add more tour items as needed -->
-        </section>
-    </main>
-    
-    
+            <div class="info-item">
+                
+                <p>Address: 123 Main Street, Bengaluru, India</p>
+            </div>
+        </div>
+        
+        <p>We're available during our business hours from Monday to Friday, 9:00 AM to 5:00 PM (local time). You can also fill out the form below to send us a message:</p>
+        
+        <form action="submit_contact_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+   
+       
+         
